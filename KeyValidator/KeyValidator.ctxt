@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=KeyValidator
+comment1.params=
+comment1.target=void\ doCore()
+comment2.params=key
+comment2.target=void\ validateKeyCore(java.lang.String)
+comment3.params=
+comment3.target=void\ doCompletion()
+comment3.text=\r\n\ Asks\ user\ for\ key\ word\ and\ the\ name\ and\ then\ checks\ if\ it\ is\ a\ valid\ key\ word.\r\n
+comment4.params=key\ name
+comment4.target=void\ validateKeyCompletion(java.lang.String,\ java.lang.String)
+comment4.text=\ COMPLETION\r\n\ Report\ that\ the\ key\ is\ valid\ or\ report\ ALL\ the\ rules\ that\ the\ key\ failed.\r\n
+comment5.params=
+comment5.target=void\ setupGUI()
+numComments=6
