@@ -3,9 +3,9 @@
 // You may not distribute it in any other way without permission.
 
 /* Code for COMP102 - 2020T1, Assignment 3
- * Name: Shaylen Mamidi
- * Username: mamidishay 
- * ID: 300525776
+ * Name: 
+ * Username:  
+ * ID: 
  */
 
 
