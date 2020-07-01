@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Firework
+comment0.text=\ Firework\r\n\ \ \ A\ firework\ is\ a\ small\ coloured\ circle\ that\ starts\ at\ the\ ground\r\n\ \ \ then\ moves\ up\ the\ window\ each\ step\r\n\ \ \ until\ it\ has\ got\ to\ its\ target\ height,\r\n\ \ \ then\ it\ "explodes"\ -\ getting\ larger\ at\ each\ step\ (but\ not\ moving)\r\n\ \ \ until\ it\ is\ finished\ (its\ radius\ is\ half-way\ to\ the\ ground),\ and\ then\r\n\ \ \ it\ disappears.\r\n\ \ \ Note\:\ step()\ should\ not\ redraw\ the\ firework\r\n
+comment1.params=x\ c\ max
+comment1.target=Firework(double,\ java.awt.Color,\ double)
+comment2.params=
+comment2.target=void\ step()
+comment2.text=\r\n\ Make\ the\ firework\ move\ one\ step\:\r\n\ \ If\ below\ maxHeight,\ move\ it\ up\ by\ STEP_SIZE\r\n\ \ If\ at\ maxHeight\ and\ not\ finished,\ make\ the\ radius\ bigger\ by\ GROW_SIZE,\ \r\n
+comment3.params=
+comment3.target=boolean\ isFinished()
+comment3.text=\r\n\ Finished\ if\ the\ radius\ is\ at\ least\ half\ of\ maxHeight\r\n
+comment4.params=
+comment4.target=void\ draw()
+comment4.text=\r\n\ Draw\ the\ firework\ as\ a\ circle\ of\ the\ current\ size,\ unless\ it\ is\ finished\r\n
+numComments=5

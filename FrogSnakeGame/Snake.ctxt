@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Snake
+comment0.text=\ The\ snake\ is\ created\ at\ a\ random\ position\ with\ a\ random\ 360\ degree\ direction.\r\n\ The\ constructor\ does\ not\ have\ any\ \ parameters.\r\n\ It\ can\ move\r\n\ \ -\ makes\ it\ go\ forward\ one\ step\ in\ its\ current\ direction.\r\n\ \ -\ if\ outside\ arena\ boundaries,\ makes\ it\ go\ backward\ one\ step,\ and\r\n\ \ \ \ \ \ \ \ \ then\ turn\ to\ a\ new\ (random)\ direction.\r\n\ \ The\ walls\ of\ the\ arena\ are\ determined\ by\ the\ constants\:\r\n\ \ \ \ ARENA_SIZE,\ TOP_WALL,\ BOT_WALL,\ LEFT_WALL\ and\ RIGHT_WALL\r\n\ It\ can\ report\ its\ current\ position\ (x\ and\ y)\ with\ the\r\n\ \ getX()\ and\ getY()\ methods.\r\n\ \ move()\ will\ make\ it\ move\ in\ the\ direction\ it\ is\ going.\ \r\n\ \ draw()\ will\ make\ it\ draw\ itself\ (image\ size\ should\ be\ 30).\r\n
+comment1.params=
+comment1.target=Snake()
+comment1.text=\ \r\n\ Make\ a\ new\ Snake\ object\r\n\ set\ its\ direction\ to\ a\ random\ direction\ ,\ 0...360\r\n
+comment2.params=
+comment2.target=double\ getX()
+comment2.text=Return\ the\ x\ coordinate\ of\ the\ current\ postition
+comment3.params=
+comment3.target=double\ getY()
+comment3.text=Return\ the\ y\ coordinate\ of\ the\ current\ postition
+comment4.params=
+comment4.target=void\ move()
+comment4.text=\ Step\ one\ unit\ in\ the\ current\ direction\ (but\ don't\ redraw)\r\n\ if\ the\ snake\ hits\ a\ wall\ it\ shoudl\ go\ backward\ two\ steps,\ and\ turn\ ot\ a\ new\ (random)\r\n\ direction\r\n
+comment5.params=
+comment5.target=void\ draw()
+comment5.text=Draw\ the\ snake
+numComments=6

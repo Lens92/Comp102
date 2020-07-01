@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=FrogSnakeGame
+comment0.text=\ FrogSnakeGame\:\ Completion\r\n\ \ Game\ with\ two\ frogs\ that\ race\ to\ get\ to\ the\ bug\ first\ in\ order\ to\ eat\ it,\ and\ must\ avoid\ snakes.\r\n\ \ (uses\ keys\:\ \r\n\ \ \ \ \ \ \ \ player\ 1\:\ W/A/S/D\ for\ up/left/down/right;\ controls\ the\ "light"\ frog\r\n\ \ \ \ \ \ \ \ player\ 2\:\ I/J/K/L\ for\ up/left/down/right;\ controls\ the\ "dark"\ frog\r\n\ \ Frogs\ move\ around\ at\ a\ constant\ speed\ in\ an\ arena\ with\ an\ enclosing\ wall.\r\n\ \ When\ one\ of\ the\ frogs\ reaches\ the\ bug,\ the\ frog\ eats\ it\ and\ grows\ in\ size,\r\n\ \ \ \ \ \ \ and\ a\ new\ bug\ appears\ at\ a\ random\ position\ within\ the\ arena\ walls.\r\n\r\n\ \ The\ game\ also\ has\ two\ snakes\ that\ constantly\ move\ in\ a\ random\ direction\ until\r\n\ \ \ \ they\ hit\ a\ wall.\r\n\ \ \ \ In\ which\ case\ the\ snake\ changes\ direction.\r\n\ When\ a\ frog\ touches\ a\ snakes,\ it\ shrinks\ back\ to\ its\ original\ size.\r\n\r\n\ \ Controls\:\r\n\ \ -\ key\ to\ start\ (space)\r\n\ \ -\ keys\ to\ turn\ the\ two\ frogs\ \ (w/a/s/d\ \ and\ i/j/k/l)\r\n\r\n\ \ Display\:\r\n\ \ \ program\ constantly\ shows\r\n\ \ \ -\ the\ arena,\ the\ bug,\ the\ frogs\ and\ the\ snakes\r\n\r\n\ \ Constants\:\r\n\ \ \ \ This\ class\ should\ contain\ constants\ specifying\ the\ various\ parameters\ of\r\n\ \ \ \ the\ game,\ including\ the\ geometry\ of\ the\ arena\ and\ obstacle.\r\n
+comment1.params=
+comment1.target=void\ setupGUI()
+comment1.text=\ \r\n\ Set\ up\ the\ GUI,\r\n\ \r\n\ Draw\ the\ arena\ and\ the\ bug\r\n
+comment2.params=key
+comment2.target=void\ doKey(java.lang.String)
+comment2.text=\r\n\ Respond\ to\ keys.\r\n\ the\ space\ key\ should\ reset\ the\ game\ to\ have\ two\ new\ frogs\r\n\ the\ w/a/s/d\ keys\ should\ make\ the\ light\ frog\ turn\ up,\ left,\ down\ or\ right\r\n\ the\ i/j/k/l\ keys\ should\ make\ the\ dark\ frog\ turn\ up,\ left,\ down\ or\ right\r\n
+comment3.params=
+comment3.target=void\ restartGame()
+comment3.text=\ \r\n\ Reset\ the\ game\ with\ two\ new\ frogs\ in\ the\ starting\ positions,\r\n\ \ \ and\ two\ snakes\ at\ a\ random\ position.\r\n\ Loop\ forever\r\n\ \ -\ move\ each\ frog\ one\ step,\r\n\ \ -\ move\ each\ snake\ one\ step,\r\n\ \ -\ if\ any\ frog\ has\ caught\ the\ bug,\ it\ grows,\ and\ a\ new\ bug\ appears\ somewhere\ else.\r\n\ \ -\ if\ any\ frog\ was\ caught\ by\ a\ snake,\ it\ shrinks\ back\ to\ its\ original\ size.\r\n\ \ -\ redraw\ the\ game\ (frogs,\ snakes,\ arena,\ and\ bug)\r\n
+comment4.params=
+comment4.target=void\ redraw()
+comment4.text=\r\n\ Redraws\r\n\ -\ the\ arena\r\n\ -\ the\ bug\r\n\ -\ the\ two\ frogs\r\n\ -\ the\ two\ snakes\r\n
+comment5.params=
+comment5.target=void\ drawArenaBug()
+comment5.text=\r\n\ Draw\ the\ arena\ as\ a\ rectangle\ with\ a\ bug\ in\ it\r\n
+comment6.params=
+comment6.target=void\ newBug()
+comment6.text=\r\n\ Defines\ new\ position\ for\ the\ bug\ and\ draws\ it\r\n
+comment7.params=arguments
+comment7.target=void\ main(java.lang.String[])
+comment7.text=\r\n\ Create\ a\ new\ FrogSnakeGame\ object\ (which\ will\ set\ up\ the\ interface)\r\n\ and\ then\ call\ the\ run\ method\ on\ it,\ which\ will\ start\ the\ game\ running\r\n
+numComments=8
