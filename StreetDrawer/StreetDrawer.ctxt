@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=StreetDrawer
+comment0.text=\ Draws\ a\ street\ of\ houses\r\n
+comment1.params=midX\ midY\ sz
+comment1.target=void\ drawWindow(double,\ double,\ double)
+comment1.text=This\ draws\ the\ Windows\ for\ the\ houses,\ using\ small\ rectangles
+comment2.params=mid\ bot
+comment2.target=void\ drawHouse(double,\ double)
+comment2.text=This\ draws\ a\ house\ calling\ the\ above\ window\ method\ using\ for\ loops\ to\ create\ an\ array\ of\ windows
+comment3.params=
+comment3.target=void\ drawStreet()
+comment3.text=This\ calls\ the\ above\ method\ to\ create\ 6\ houses
+comment4.params=
+comment4.target=void\ drawStreetCompl()
+comment4.text=\r\n\ Draw\ a\ street\ of\ varying\ houses\ \r\n
+comment5.params=left\ bot\ ht\ cols
+comment5.target=void\ drawHouseCompl(double,\ double,\ double,\ int)
+comment6.params=midX\ midY\ sz\ col
+comment6.target=void\ drawFancyWindow(double,\ double,\ double,\ java.awt.Color)
+comment7.params=
+comment7.target=void\ setupGUI()
+comment7.text=\r\n\ Set\ up\ the\ user\ interface,\ with\ a\ button\ to\ draw\ the\ street\ and\ a\ quit\r\n
+numComments=8
