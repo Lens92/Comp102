@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Question2
+comment0.text=\r\n\ Question\ 2.\ Writing\ programs\ with\ loops.\r\n
+comment1.params=numbers
+comment1.target=double\ findMin(java.util.ArrayList)
+comment1.text=\r\n\ findMin\ should\ return\ the\ minimum\ number\ in\ an\ ArrayList\r\n\ of\ numbers\ specified\ in\ the\ parameter.\r\n
+comment2.params=numbers\ min
+comment2.target=void\ removeMin(java.util.ArrayList,\ double)
+comment2.text=\r\n\ removeMin\ should\ delete\ all\ occurrences\ of\ the\ number\ in\ min\ from\r\n\ the\ ArrayList\ in\ numbers,\ except\ it\ must\ not\ delete\ all\ the\ values\ from\r\n\ numbers\ -\ there\ should\ be\ at\ least\ one\ value\ left\ in\ the\ list.\ \ \r\n\ For\ example,\r\n\ \ \ if\ \ \ numbers\ holds\ {2.1,\ 3.0,\ 4.5,\ 2.1,\ 2.1,\ 2.1},\r\n\ \ \ then\ removeMin(numbers,\ 2.1)\ should\ reduce\ numbers\ to\ {3.0,\ 4.5}\r\n\ \ \ if\ \ \ numbers\ holds\ {3.2,\ 3.2,\ 3.2,\ 3.2},\r\n\ \ \ then\ removeMin(numbers,\ 3.2)\ should\ reduce\ numbers\ to\ {3.2}\r\n
+comment3.params=
+comment3.target=void\ test()
+comment3.text=\r\n\ The\ following\ is\ a\ test\ method\ and\ the\ GUI\ for\ testing\ *\r\n
+comment4.params=
+comment4.target=void\ setupGUI()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

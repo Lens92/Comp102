@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Question5
+comment0.text=\ \r\n\ Question\ 5\:\ A\ line-breaking\ algorithm\r\n
+comment1.params=text
+comment1.target=void\ printText(java.lang.String)
+comment1.text=\ \r\n\ printText\ should\ print\ the\ String\ in\ its\ parameter\ in\ a\ series\ of\ lines.\r\n\ Each\ line\ of\ output\ should\ have\ at\ most\ 10\ characters\ on\ it.\r\n\ There\ should\ be\ as\ few\ lines\ as\ possible.\r\n\ Where\ necessary,\ it\ should\ break\ words\ between\ lines\ with\ hyphens;\r\n\ \ the\ hyphen\ should\ always\ be\ the\ last\ character\ on\ a\ line.\r\n\ No\ word\ should\ start\ or\ end\ with\ a\ hyphen\r\n\ Do\ not\ put\ a\ space\ at\ the\ beginning\ of\ any\ line.\r\n\ You\ may\ assume\ that\ the\ String\ contains\ only\ words,\ with\r\n\ \ no\ punctuation\ and\ exactly\ one\ space\ between\ words.\r\n\ See\ the\ assignment\ description\ for\ an\ example.\r\n
+comment2.params=
+comment2.target=void\ test()
+comment2.text=\r\n\ YOU\ CAN\ USE\ THE\ METHODS\ BELOW\ THIS\ LINE\ \ \ \ \ \ \ \ \ \ \ \ *\ \r\n\ TO\ TEST\ YOUR\ PROGRAM\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ *\r\n
+comment3.params=
+comment3.target=void\ setupGUI()
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

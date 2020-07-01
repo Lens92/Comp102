@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Question3
+comment0.text=\r\n\ Question\ 3\:\ Writing\ programs\ with\ Files\ \r\n
+comment1.params=filename
+comment1.target=java.lang.String\ findLongestWord(java.lang.String)
+comment1.text=\r\n\ findLongestWord\ should\ read\ all\ the\ words\ from\ the\ file\ specified\r\n\ \ \ by\ the\ parameter,\r\n\ and\ then\ find\ and\ return\ the\ longest\ word.\r\n\ If\ there\ are\ two\ or\ more\ equally\ longest\ words,\ it\ should\ return\r\n\ \ \ the\ last\ one.\r\n\ It\ should\ not\ count\ the\ punctuation.\ \r\n
+comment2.params=
+comment2.target=void\ test1()
+comment2.text=\r\n\ The\ following\ is\ a\ test\ method\ and\ the\ GUI\ for\ testing\ *\r\n
+comment3.params=
+comment3.target=void\ test2()
+comment4.params=
+comment4.target=void\ setupGUI()
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6
